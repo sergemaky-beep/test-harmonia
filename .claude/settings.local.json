@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:51388/)",
+      "Bash(npm install:*)",
+      "Bash(ls /Users/serge/Downloads/harmonia-syndic/.env*)",
+      "WebFetch(domain:www.whitebird.immo)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:www.google.com)",
+      "WebFetch(domain:www.kleorimmobilier.fr)",
+      "Bash(grep -E \"\\\\.\\(png|jpg|jpeg\\)$\")",
+      "Bash(xargs ls *)",
+      "Bash(sort -k1)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__mcp-registry__list_connectors"
+    ]
+  }
+}
