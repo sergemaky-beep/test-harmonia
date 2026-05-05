@@ -166,7 +166,6 @@ export default function ContactPage() {
                         value={formData.nom}
                         onChange={handleChange}
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2"
-                        style={{ focusBorderColor: '#0E7377' }}
                         onFocus={(e) =>
                           e.target.style.boxShadow = '0 0 0 3px rgba(14, 115, 119, 0.1)'
                         }
