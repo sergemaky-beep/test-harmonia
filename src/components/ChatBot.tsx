@@ -256,7 +256,7 @@ export default function ChatBot() {
             {/* Quick Action Buttons */}
             {messages[messages.length - 1]?.showQuickActions && messages[messages.length - 1]?.actionButtons && (
               <div className="mt-4 space-y-2">
-                {messages[messages.length - 1].actionButtons.map((btn) => (
+                {messages[messages.length - 1]?.actionButtons?.map((btn) => (
                   <button
                     key={btn.action}
                     onClick={() => handleQuickAction(btn.action)}
