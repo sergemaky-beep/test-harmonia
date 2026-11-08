@@ -5,8 +5,8 @@ export interface City {
   postalCode: string;
   description: string;
   population: string;
-  numberOfCopros: number;
-  averageCharges: number;
+  numberOfCopros?: number;
+  averageCharges?: number;
 }
 
 export const cities: City[] = [
@@ -110,50 +110,6 @@ export const cities: City[] = [
     averageCharges: 3200,
   },
   {
-    slug: 'lyon',
-    name: 'Lyon',
-    department: 'Rhône (69)',
-    postalCode: '69000',
-    description:
-      'Deuxième ville de France, Lyon héberge environ 8 500 copropriétés résidentielles. Les quartiers de Presqu\'île et de Fourvière sont particulièrement denses en immeubles collectifs. Harmonia Syndic y maîtrise les problématiques de gestion ancienne et moderne.',
-    population: '515 000',
-    numberOfCopros: 8500,
-    averageCharges: 2100,
-  },
-  {
-    slug: 'marseille',
-    name: 'Marseille',
-    department: 'Bouches-du-Rhône (13)',
-    postalCode: '13000',
-    description:
-      'Marseille possède un parc immobilier collectif de plus de 6 000 copropriétés. La gestion des immeubles anciens y est particulièrement importante, avec des enjeux de rénovation thermique. Notre expertise locale assure une gestion adaptée au contexte méditerranéen.',
-    population: '869 000',
-    numberOfCopros: 6000,
-    averageCharges: 1800,
-  },
-  {
-    slug: 'nice',
-    name: 'Nice',
-    department: 'Alpes-Maritimes (06)',
-    postalCode: '06000',
-    description:
-      'Nice compte environ 3 500 copropriétés, principalement des résidences de standing et de prestige. Les copropriétés côtières représentent un segment très spécifique avec des enjeux de maintenance importants. Harmonia Syndic comprend les spécificités du marché azuréen.',
-    population: '341 000',
-    numberOfCopros: 3500,
-    averageCharges: 2400,
-  },
-  {
-    slug: 'toulouse',
-    name: 'Toulouse',
-    department: 'Haute-Garonne (31)',
-    postalCode: '31000',
-    description:
-      'Toulouse enregistre une croissance importante avec plus de 4 500 copropriétés. La ville attire des habitants et vit une forte dynamique de construction collective. Harmonia Syndic accompagne cette expansion avec des solutions modernes et adaptées.',
-    population: '479 000',
-    numberOfCopros: 4500,
-    averageCharges: 1950,
-  },
-  {
     slug: 'bordeaux',
     name: 'Bordeaux',
     department: 'Gironde (33)',
@@ -163,17 +119,6 @@ export const cities: City[] = [
     population: '259 000',
     numberOfCopros: 3200,
     averageCharges: 1700,
-  },
-  {
-    slug: 'nantes',
-    name: 'Nantes',
-    department: 'Loire-Atlantique (44)',
-    postalCode: '44000',
-    description:
-      'Nantes compte plus de 2 800 copropriétés avec une urbanisation croissante. La gestion des espaces communs et la transition énergétique sont des priorités. Harmonia Syndic adapte ses services aux besoins des copropriétaires nantais.',
-    population: '308 000',
-    numberOfCopros: 2800,
-    averageCharges: 1600,
   },
   {
     slug: 'strasbourg',
@@ -187,26 +132,94 @@ export const cities: City[] = [
     averageCharges: 1550,
   },
   {
-    slug: 'montpellier',
-    name: 'Montpellier',
-    department: 'Hérault (34)',
-    postalCode: '34000',
+    slug: 'montreuil',
+    name: 'Montreuil',
+    department: 'Seine-Saint-Denis (93)',
+    postalCode: '93100',
     description:
-      'Montpellier connaît une croissance rapide avec environ 2 200 copropriétés. La ville attire une population jeune et dynamique, créant une demande importante en gestion immobilière. Harmonia Syndic soutient cette expansion régionale.',
-    population: '285 000',
-    numberOfCopros: 2200,
-    averageCharges: 1450,
+      'Montreuil, aux portes de Paris, mêle immeubles anciens, résidences des années 60-70 et programmes récents. Harmonia Syndic y accompagne des copropriétés à taille humaine avec une gestion de proximité.',
+    population: '111 000',
   },
   {
-    slug: 'lille',
-    name: 'Lille',
-    department: 'Nord (59)',
-    postalCode: '59000',
+    slug: 'creteil',
+    name: 'Créteil',
+    department: 'Val-de-Marne (94)',
+    postalCode: '94000',
     description:
-      'Lille possède environ 2 500 copropriétés, héritières d\'un patrimoine architectural diversifié. La gestion des anciens immeubles industriels rénovés est un domaine d\'expertise. Harmonia Syndic intervient avec efficacité dans le Nord.',
-    population: '233 000',
-    numberOfCopros: 2500,
-    averageCharges: 1400,
+      'Préfecture du Val-de-Marne, Créteil compte de nombreuses résidences collectives où les enjeux de travaux et de maîtrise des charges sont importants. Harmonia Syndic y intervient avec un suivi technique rigoureux.',
+    population: '92 000',
+  },
+  {
+    slug: 'saint-maurice',
+    name: 'Saint-Maurice',
+    department: 'Val-de-Marne (94)',
+    postalCode: '94410',
+    description:
+      'Saint-Maurice, entre Bois de Vincennes et bords de Marne, offre un parc résidentiel recherché. Harmonia Syndic y gère des copropriétés avec une présence régulière sur le terrain.',
+    population: '14 500',
+  },
+  {
+    slug: 'langon',
+    name: 'Langon',
+    department: 'Gironde (33)',
+    postalCode: '33210',
+    description:
+      'Langon, sous-préfecture du Sud-Gironde, voit son parc de petites copropriétés se développer. Harmonia Syndic accompagne les copropriétaires du Langonnais avec une gestion de proximité.',
+    population: '7 600',
+  },
+  {
+    slug: 'libourne',
+    name: 'Libourne',
+    department: 'Gironde (33)',
+    postalCode: '33500',
+    description:
+      'Libourne, capitale du Libournais, associe immeubles anciens du centre et résidences récentes. Harmonia Syndic y propose une gestion transparente et réactive.',
+    population: '25 000',
+  },
+  {
+    slug: 'merignac',
+    name: 'Mérignac',
+    department: 'Gironde (33)',
+    postalCode: '33700',
+    description:
+      'Mérignac, deuxième ville de Gironde, dispose d\'un important parc de résidences collectives. Harmonia Syndic y accompagne les copropriétés dans leur gestion courante et leurs travaux.',
+    population: '73 000',
+  },
+  {
+    slug: 'pessac',
+    name: 'Pessac',
+    department: 'Gironde (33)',
+    postalCode: '33600',
+    description:
+      'Pessac, ville universitaire de la métropole bordelaise, compte de nombreuses copropriétés étudiantes et familiales. Harmonia Syndic y assure une gestion rigoureuse et accessible.',
+    population: '66 000',
+  },
+  {
+    slug: 'schiltigheim',
+    name: 'Schiltigheim',
+    department: 'Bas-Rhin (67)',
+    postalCode: '67300',
+    description:
+      'Schiltigheim, au nord de Strasbourg, connaît un fort renouvellement de son parc collectif. Harmonia Syndic y accompagne les copropriétés dans le respect du droit local alsacien (livre foncier).',
+    population: '34 000',
+  },
+  {
+    slug: 'illkirch-graffenstaden',
+    name: 'Illkirch-Graffenstaden',
+    department: 'Bas-Rhin (67)',
+    postalCode: '67400',
+    description:
+      'Illkirch-Graffenstaden, au sud de l\'Eurométropole, réunit résidences familiales et programmes récents. Harmonia Syndic y propose une gestion de proximité adaptée au droit local.',
+    population: '27 000',
+  },
+  {
+    slug: 'haguenau',
+    name: 'Haguenau',
+    department: 'Bas-Rhin (67)',
+    postalCode: '67500',
+    description:
+      'Haguenau, deuxième ville du Bas-Rhin, dispose d\'un parc de copropriétés en croissance. Harmonia Syndic y accompagne les copropriétaires avec réactivité.',
+    population: '35 000',
   },
 ];
 

@@ -72,6 +72,22 @@ export default function MentionsLegales() {
         <p>Membre du réseau White Bird.</p>
       </Bloc>
 
+      <Bloc titre="Gestion locative">
+        <p>
+          Les mandats de gestion locative proposés sous la marque {SOCIETE.marque} sont exercés par la société{' '}
+          <strong>SCOOP GESTION</strong>, SARL à associé unique au capital de 2 000 €, RCS Créteil 814 811 501, siège
+          social 3 rue des Prés de Champlain, 94430 Chennevières-sur-Marne.
+        </p>
+        <p>
+          Carte professionnelle n° CPI 7501 2016 000 006 828, délivrée par la CCI Paris Île-de-France, mentions
+          « Transactions sur immeubles et fonds de commerce » et « Gestion immobilière », valable jusqu&apos;au 24/10/2029.
+        </p>
+        <p>
+          Garantie financière : GALIAN, 89 rue La Boétie, 75008 Paris, pour un montant de 120 000 €. Assurance
+          responsabilité civile professionnelle : GALIAN, contrat n° 48420.
+        </p>
+      </Bloc>
+
       <Bloc titre="Médiation de la consommation">
         <p>
           Conformément aux articles L.612-1 et suivants du Code de la consommation, en cas de litige non résolu

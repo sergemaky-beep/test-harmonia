@@ -240,11 +240,11 @@ export default function Home() {
               Nos zones d'intervention
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Harmonia Syndic intervient en Île-de-France et en Alsace, dans le Bas-Rhin (67).
+              Harmonia Syndic intervient en Île-de-France, dans le Bas-Rhin (67) et en Gironde (33).
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="rounded-xl border-2 border-accent/20 p-6">
               <div className="text-2xl font-bold text-accent mb-1">92</div>
               <h3 className="text-lg font-semibold text-primary mb-3">Hauts-de-Seine</h3>
@@ -277,12 +277,32 @@ export default function Home() {
             </div>
 
             <div className="rounded-xl border-2 border-accent/20 p-6">
+              <div className="text-2xl font-bold text-accent mb-1">93 · 94</div>
+              <h3 className="text-lg font-semibold text-primary mb-3">Seine-Saint-Denis & Val-de-Marne</h3>
+              <ul className="space-y-1 text-gray-600 text-sm">
+                <li>• <a href="/syndic-copropriete/montreuil" className="hover:text-accent">Montreuil</a></li>
+                <li>• <a href="/syndic-copropriete/creteil" className="hover:text-accent">Créteil</a></li>
+                <li>• <a href="/syndic-copropriete/saint-maurice" className="hover:text-accent">Saint-Maurice</a></li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl border-2 border-accent/20 p-6">
               <div className="text-2xl font-bold text-accent mb-1">67</div>
               <h3 className="text-lg font-semibold text-primary mb-3">Bas-Rhin</h3>
               <ul className="space-y-1 text-gray-600 text-sm">
                 <li>• <a href="/syndic-copropriete/strasbourg" className="hover:text-accent">Strasbourg</a></li>
                 <li>• Eurométropole (Schiltigheim, Illkirch-Graffenstaden…)</li>
                 <li>• Haguenau</li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl border-2 border-accent/20 p-6">
+              <div className="text-2xl font-bold text-accent mb-1">33</div>
+              <h3 className="text-lg font-semibold text-primary mb-3">Gironde</h3>
+              <ul className="space-y-1 text-gray-600 text-sm">
+                <li>• <a href="/syndic-copropriete/langon" className="hover:text-accent">Langon</a></li>
+                <li>• <a href="/syndic-copropriete/bordeaux" className="hover:text-accent">Bordeaux</a>, Mérignac, Pessac</li>
+                <li>• <a href="/syndic-copropriete/libourne" className="hover:text-accent">Libourne</a></li>
               </ul>
             </div>
           </div>

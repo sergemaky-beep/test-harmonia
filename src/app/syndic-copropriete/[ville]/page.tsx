@@ -20,7 +20,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
   return {
     title: `Syndic de copropriété à ${city.name} | Harmonia Syndic`,
-    description: `Trouvez votre syndic de copropriété à ${city.name}. Gestion complète de copropriété, charges moyennes ${city.averageCharges}€/an. Devis gratuit et transparent.`,
+    description: `Trouvez votre syndic de copropriété à ${city.name}. Gestion complète de copropriété et gestion locative. Devis gratuit et transparent.`,
     keywords: [
       `syndic ${city.name}`,
       `copropriété ${city.name}`,
@@ -81,6 +81,7 @@ export default async function CityPage(props: Props) {
               </p>
             </div>
 
+            {city.numberOfCopros !== undefined && (
             <div className="bg-[#FDF0EB] rounded-lg p-8">
               <div className="text-5xl font-bold text-[#C4A35A] mb-3">
                 {city.numberOfCopros.toLocaleString()}
@@ -90,7 +91,9 @@ export default async function CityPage(props: Props) {
                 Ordre de grandeur du parc de copropriétés de la commune.
               </p>
             </div>
+            )}
 
+            {city.averageCharges !== undefined && (
             <div className="bg-[#FDF0EB] rounded-lg p-8">
               <div className="text-5xl font-bold text-[#C4A35A] mb-3">
                 {city.averageCharges.toLocaleString()} €
@@ -100,6 +103,7 @@ export default async function CityPage(props: Props) {
                 Charges estimées par lot annuelles à {city.name}.
               </p>
             </div>
+            )}
           </div>
         </section>
 
@@ -219,8 +223,14 @@ export default async function CityPage(props: Props) {
           </h2>
 
           <p className="text-gray-700 mb-6">
-            À {city.name}, les charges moyennes de copropriété s'élèvent à{' '}
-            <strong>{city.averageCharges.toLocaleString()} € par lot et par an</strong>. Ce montant varie en fonction de :
+            {city.averageCharges !== undefined ? (
+              <>
+                À {city.name}, les charges moyennes de copropriété s'élèvent à{' '}
+                <strong>{city.averageCharges.toLocaleString()} € par lot et par an</strong>. Ce montant varie en fonction de :
+              </>
+            ) : (
+              <>À {city.name}, le montant des charges de copropriété varie fortement d&apos;un immeuble à l&apos;autre, en fonction de :</>
+            )}
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">

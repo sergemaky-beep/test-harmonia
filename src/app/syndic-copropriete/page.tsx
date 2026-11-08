@@ -67,16 +67,20 @@ export default function SyndicCoproprieteIndex() {
 
                   {/* Stats */}
                   <div className="space-y-3 mb-6">
+                    {city.numberOfCopros !== undefined && (
                     <div className="flex justify-between items-start">
                       <span className="text-gray-700 font-medium">Copropriétés dans la ville:</span>
                       <span className="text-[#C4A35A] font-bold">{city.numberOfCopros.toLocaleString()}</span>
                     </div>
+                    )}
+                    {city.averageCharges !== undefined && (
                     <div className="flex justify-between items-start">
                       <span className="text-gray-700 font-medium">Charges moyennes:</span>
                       <span className="text-[#C4A35A] font-bold">
                         {city.averageCharges.toLocaleString()} €/an
                       </span>
                     </div>
+                    )}
                     <div className="flex justify-between items-start">
                       <span className="text-gray-700 font-medium">Population:</span>
                       <span className="text-gray-600">{city.population}</span>

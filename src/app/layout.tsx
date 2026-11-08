@@ -9,11 +9,11 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Harmonia Syndic & Gestion | Syndic de copropriété Île-de-France & Bas-Rhin',
-  description: 'Harmonia Syndic & Gestion, cabinet indépendant membre du réseau White Bird. Syndic de copropriété et gestion locative en Île-de-France (92, 78, 77) et dans le Bas-Rhin (67, Strasbourg). Neuilly-sur-Seine, Boulogne-Billancourt, Versailles, Levallois-Perret. Audit gratuit.',
-  keywords: 'syndic de copropriété, Harmonia Syndic, gestion copropriété, syndic Hauts-de-Seine, syndic Yvelines, syndic Strasbourg, syndic Bas-Rhin, syndic Neuilly-sur-Seine, syndic Boulogne-Billancourt, syndic Versailles, syndic Levallois-Perret, syndic Saint-Germain-en-Laye, gestion locative, White Bird, charges copropriété, administrateur de biens, audit copropriété gratuit',
+  title: 'Harmonia Syndic & Gestion | Syndic de copropriété Île-de-France, Bas-Rhin & Gironde',
+  description: 'Harmonia Syndic & Gestion, cabinet indépendant membre du réseau White Bird. Syndic de copropriété et gestion locative en Île-de-France (92, 78, 77, 93, 94), dans le Bas-Rhin (Strasbourg) et en Gironde (Bordeaux, Langon). Neuilly-sur-Seine, Boulogne-Billancourt, Versailles, Levallois-Perret. Audit gratuit.',
+  keywords: 'syndic de copropriété, Harmonia Syndic, gestion copropriété, syndic Hauts-de-Seine, syndic Yvelines, syndic Strasbourg, syndic Bas-Rhin, syndic Bordeaux, syndic Langon, syndic Gironde, syndic Créteil, syndic Montreuil, syndic Neuilly-sur-Seine, syndic Boulogne-Billancourt, syndic Versailles, syndic Levallois-Perret, syndic Saint-Germain-en-Laye, gestion locative, White Bird, charges copropriété, administrateur de biens, audit copropriété gratuit',
   openGraph: {
-    title: 'Harmonia Syndic & Gestion | Syndic de copropriété 92, 78, 77, 67',
+    title: 'Harmonia Syndic & Gestion | Syndic de copropriété IDF, 67, 33',
     description: 'Syndic engagé, humain et ultra-performant. Hauts-de-Seine, Yvelines, Seine-et-Marne. Membre du réseau White Bird. Audit gratuit.',
     type: 'website',
     locale: 'fr_FR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Harmonia Syndic & Gestion | Syndic de copropriété 92, 78, 77, 67',
+    title: 'Harmonia Syndic & Gestion | Syndic de copropriété IDF, 67, 33',
     description: 'Syndic engagé, humain et ultra-performant. Hauts-de-Seine, Yvelines, Seine-et-Marne. Membre du réseau White Bird. Audit gratuit.',
     images: ['https://harmoniasyndic.fr/images/og-image.png'],
   },
@@ -73,7 +73,12 @@ export default function RootLayout({
       { '@type': 'AdministrativeArea', name: 'Hauts-de-Seine' },
       { '@type': 'AdministrativeArea', name: 'Yvelines' },
       { '@type': 'AdministrativeArea', name: 'Seine-et-Marne' },
+      { '@type': 'AdministrativeArea', name: 'Seine-Saint-Denis' },
+      { '@type': 'AdministrativeArea', name: 'Val-de-Marne' },
       { '@type': 'AdministrativeArea', name: 'Bas-Rhin' },
+      { '@type': 'AdministrativeArea', name: 'Gironde' },
+      { '@type': 'City', name: 'Bordeaux' },
+      { '@type': 'City', name: 'Langon' },
       { '@type': 'City', name: 'Strasbourg' },
       { '@type': 'City', name: 'Neuilly-sur-Seine' },
       { '@type': 'City', name: 'Boulogne-Billancourt' },
