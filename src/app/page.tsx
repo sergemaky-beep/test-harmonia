@@ -38,7 +38,7 @@ export default function Home() {
               Nos services
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Une offre complète et adaptée à vos besoins
+              Un syndic de proximité, de la gestion courante aux travaux
             </p>
           </div>
 
@@ -49,21 +49,24 @@ export default function Home() {
               description="Gestion administrative, financière et technique de votre copropriété avec un gestionnaire dédié, présent 70% du temps sur le terrain."
             />
             <FeatureCard
-              icon="🔑"
-              title="Gestion locative"
-              description="Accompagnement complet dans la gestion de vos biens locatifs : recherche de locataires, suivi des loyers, gestion des travaux."
+              icon="🗳️"
+              title="Assemblées générales"
+              description="Préparation des convocations, tenue de l'AG, procès-verbaux et exécution rapide des décisions votées."
             />
             <FeatureCard
-              icon="📈"
-              title="Acquisition & Vente"
-              description="Conseil et accompagnement personnalisé pour tous vos projets d'acquisition et de vente immobilière."
+              icon="🛠️"
+              title="Travaux & entretien"
+              description="Mise en concurrence des entreprises, suivi des chantiers et gestion des urgences avec un réseau d'artisans qualifiés."
             />
             <FeatureCard
-              icon="💎"
-              title="Investissement immobilier"
-              description="Stratégie patrimoniale sur-mesure pour optimiser vos investissements et développer votre patrimoine."
+              icon="📊"
+              title="Comptabilité transparente"
+              description="Budget, appels de fonds et comptes accessibles en ligne à tout moment par chaque copropriétaire."
             />
           </div>
+          <p className="text-center text-gray-500 text-sm mt-8">
+            Gestion locative et projets d&apos;achat ou de vente : sur demande, assurés par nos partenaires.
+          </p>
         </div>
       </section>
 

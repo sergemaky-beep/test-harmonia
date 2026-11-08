@@ -27,17 +27,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
-                  Gestion locative
+                  Assemblées générales
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
-                  Acquisition & Vente
+                  Travaux & entretien
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
-                  Investissement immobilier
+                  Comptabilité transparente
                 </Link>
               </li>
             </ul>
