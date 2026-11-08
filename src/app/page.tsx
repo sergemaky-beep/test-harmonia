@@ -1,6 +1,5 @@
 import StatsBar from '@/components/StatsBar';
 import FeatureCard from '@/components/FeatureCard';
-import TestimonialCard from '@/components/TestimonialCard';
 import CTASection from '@/components/CTASection';
 import GuideCard from '@/components/GuideCard';
 import GoogleReviews from '@/components/GoogleReviews';
@@ -113,37 +112,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
-              Ils nous font confiance
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <TestimonialCard
-              rating={5}
-              quote="Harmonia Syndic a transformé la gestion de notre immeuble. Plus de transparence et une réelle économie sur les charges. L'équipe est toujours disponible et réactive."
-              author="Marie Dupont"
-              role="Copropriétaire, Paris 8e"
-            />
-            <TestimonialCard
-              rating={5}
-              quote="Depuis que Harmonia Syndic gère notre copropriété, les assemblées générales sont bien organisées et les décisions sont rapidement exécutées. Vraiment satisfaits de leur professionnalisme."
-              author="Jean-Claude Bernard"
-              role="Syndic bénévole, Paris 12e"
-            />
-            <TestimonialCard
-              rating={5}
-              quote="Le portail en ligne d'Harmonia Syndic est intuitif et nous permet de suivre nos charges en temps réel. Leur audit nous a permis d'économiser 12% sur nos contrats. Je les recommande chaudement."
-              author="Sophie Moreau"
-              role="Copropriétaire, Neuilly-sur-Seine"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* White Bird Network Section */}
       <section className="section-padding bg-primary text-white">

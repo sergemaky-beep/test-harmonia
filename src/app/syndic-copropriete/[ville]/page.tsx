@@ -20,7 +20,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
   return {
     title: `Syndic de copropriété à ${city.name} | Harmonia Syndic`,
-    description: `Trouvez votre syndic de copropriété à ${city.name}. Gestion complète de copropriété, charges moyennes ${city.averageCharges}€/an. ${city.numberOfCopros.toLocaleString()} copropriétés gérées.`,
+    description: `Trouvez votre syndic de copropriété à ${city.name}. Gestion complète de copropriété, charges moyennes ${city.averageCharges}€/an. Devis gratuit et transparent.`,
     keywords: [
       `syndic ${city.name}`,
       `copropriété ${city.name}`,
@@ -32,7 +32,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       title: `Syndic de copropriété à ${city.name}`,
       description: `Services de gestion de copropriété à ${city.name}. Devis gratuit et transparent.`,
       type: 'website',
-      url: `https://harmonia-syndic.fr/syndic-copropriete/${city.slug}`,
+      url: `https://harmoniasyndic.fr/syndic-copropriete/${city.slug}`,
     },
   };
 }
@@ -85,9 +85,9 @@ export default async function CityPage(props: Props) {
               <div className="text-5xl font-bold text-[#C4A35A] mb-3">
                 {city.numberOfCopros.toLocaleString()}
               </div>
-              <h3 className="text-lg font-semibold text-[#0E7377]">Copropriétés</h3>
+              <h3 className="text-lg font-semibold text-[#0E7377]">Copropriétés dans la ville (estimation)</h3>
               <p className="text-gray-700 mt-2">
-                Le nombre d'immeubles collectifs que nous gérons ou pourrions gérer.
+                Ordre de grandeur du parc de copropriétés de la commune.
               </p>
             </div>
 

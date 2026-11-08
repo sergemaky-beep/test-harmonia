@@ -21,22 +21,22 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-[#C4A35A]">Services</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Syndic de copropriété
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Gestion locative
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Acquisition & Vente
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Investissement immobilier
                 </Link>
               </li>
@@ -52,17 +52,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/guides-copropriete" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/faq" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
+                <Link href="/mentions-legales" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
                   Mentions légales
                 </Link>
               </li>
@@ -150,11 +150,11 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <p>&copy; {currentYear} Harmonia Syndic & Gestion. Tous droits réservés.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
-              <Link href="#" className="hover:text-[#C4A35A] transition-colors">
+              <Link href="/mentions-legales#confidentialite" className="hover:text-[#C4A35A] transition-colors">
                 Politique de confidentialité
               </Link>
-              <Link href="#" className="hover:text-[#C4A35A] transition-colors">
-                Conditions d'utilisation
+              <Link href="/mentions-legales" className="hover:text-[#C4A35A] transition-colors">
+                Mentions légales
               </Link>
             </div>
           </div>

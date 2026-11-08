@@ -68,7 +68,7 @@ export default function SyndicCoproprieteIndex() {
                   {/* Stats */}
                   <div className="space-y-3 mb-6">
                     <div className="flex justify-between items-start">
-                      <span className="text-gray-700 font-medium">Copropriétés:</span>
+                      <span className="text-gray-700 font-medium">Copropriétés dans la ville:</span>
                       <span className="text-[#C4A35A] font-bold">{city.numberOfCopros.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between items-start">

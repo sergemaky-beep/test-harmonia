@@ -17,11 +17,11 @@ export const metadata: Metadata = {
     description: 'Syndic engagé, humain et ultra-performant. Hauts-de-Seine, Yvelines, Seine-et-Marne. Membre du réseau White Bird. Audit gratuit.',
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://harmonia-syndic.fr',
+    url: 'https://harmoniasyndic.fr',
     siteName: 'Harmonia Syndic & Gestion',
     images: [
       {
-        url: 'https://harmonia-syndic.fr/images/og-image.png',
+        url: 'https://harmoniasyndic.fr/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Harmonia Syndic & Gestion – Syndic de copropriété Hauts-de-Seine, Yvelines, Seine-et-Marne',
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Harmonia Syndic & Gestion | Syndic de copropriété 92, 78, 77',
     description: 'Syndic engagé, humain et ultra-performant. Hauts-de-Seine, Yvelines, Seine-et-Marne. Membre du réseau White Bird. Audit gratuit.',
-    images: ['https://harmonia-syndic.fr/images/og-image.png'],
+    images: ['https://harmoniasyndic.fr/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://harmonia-syndic.fr',
+    canonical: 'https://harmoniasyndic.fr',
   },
   robots: {
     index: true,
@@ -51,10 +51,10 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://harmonia-syndic.fr',
+    '@id': 'https://harmoniasyndic.fr',
     name: 'Harmonia Syndic & Gestion',
     description: 'Cabinet indépendant de syndic de copropriété, membre du réseau White Bird. Gestion administrative, financière et technique de votre copropriété dans les Hauts-de-Seine, Yvelines et Seine-et-Marne.',
-    url: 'https://harmonia-syndic.fr',
+    url: 'https://harmoniasyndic.fr',
     telephone: '+33189714354',
     email: 'harmonia.syndic@whitebird.immo',
     address: {

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Guides pratiques de la copropriété",
     description:
       "Tout ce que vous devez savoir pour bien gérer votre copropriété.",
-    url: "https://harmonia-syndic.fr/guides-copropriete",
+    url: "https://harmoniasyndic.fr/guides-copropriete",
     siteName: "Harmonia Syndic",
     type: "website",
   },

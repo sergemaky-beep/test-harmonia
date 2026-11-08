@@ -39,7 +39,7 @@ export async function generateMetadata({
       description: guide.excerpt,
       type: "article",
       publishedTime: guide.publishedDate,
-      url: `https://harmonia-syndic.fr/guides-copropriete/${guide.slug}`,
+      url: `https://harmoniasyndic.fr/guides-copropriete/${guide.slug}`,
     },
   };
 }

@@ -8,7 +8,7 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: 'Formulaire contact <noreply@harmonia-syndic.fr>',
+      from: 'Formulaire contact <noreply@harmoniasyndic.fr>',
       to: 'harmonia.syndic@whitebird.immo',
       replyTo: email,
       subject: `[Contact] ${objet} — ${prenom} ${nom}`,

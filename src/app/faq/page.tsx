@@ -17,7 +17,7 @@ const faqItems: FAQItem[] = [
   {
     question: 'Proposez-vous un audit gratuit de copropriété ?',
     answer:
-      'Oui, nous réalisons un audit gratuit et sans engagement de votre copropriété : analyse des charges, des contrats en cours et des axes d\'optimisation. Contactez-nous au 01 89 71 43 54 ou sur harmonia-syndic.fr',
+      'Oui, nous réalisons un audit gratuit et sans engagement de votre copropriété : analyse des charges, des contrats en cours et des axes d\'optimisation. Contactez-nous au 01 89 71 43 54 ou sur harmoniasyndic.fr',
   },
   {
     question: 'Quel est votre délai de réponse ?',

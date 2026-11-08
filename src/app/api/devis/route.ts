@@ -15,7 +15,7 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: 'Formulaire devis <noreply@harmonia-syndic.fr>',
+      from: 'Formulaire devis <noreply@harmoniasyndic.fr>',
       to: 'harmonia.syndic@whitebird.immo',
       replyTo: email,
       subject: `[Devis] ${prenom} ${nom} — ${ville} (${codePostal})`,
