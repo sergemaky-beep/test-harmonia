@@ -24,9 +24,9 @@ const SOCIETE = {
   directeur: 'Serge MAKY, Président',
   telephone: '01 89 71 43 54',
   email: 'harmonia.syndic@whitebird.immo',
-  garant: A_COMPLETER,
-  garantMontant: A_COMPLETER,
-  rcp: A_COMPLETER,
+  garant: 'GALIAN-SMABTP, 89 rue La Boétie, 75008 Paris',
+  garantMontant: '120 000 € (activité de syndic de copropriété)',
+  rcp: 'GALIAN-SMABTP, 89 rue La Boétie, 75008 Paris — contrat n° RCP_01_174670J',
   mediateur: A_COMPLETER,
 };
 
