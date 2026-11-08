@@ -38,7 +38,7 @@ export default function Home() {
               Nos services
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Un syndic de proximité, de la gestion courante aux travaux
+              Syndic de copropriété et gestion locative, de la gestion courante aux travaux
             </p>
           </div>
 
@@ -46,12 +46,12 @@ export default function Home() {
             <FeatureCard
               icon="🏢"
               title="Syndic de copropriété"
-              description="Gestion administrative, financière et technique de votre copropriété avec un gestionnaire dédié, présent 70% du temps sur le terrain."
+              description="Gestion administrative, financière et technique de votre copropriété, assemblées générales comprises, avec un gestionnaire dédié, présent 70% du temps sur le terrain."
             />
             <FeatureCard
-              icon="🗳️"
-              title="Assemblées générales"
-              description="Préparation des convocations, tenue de l'AG, procès-verbaux et exécution rapide des décisions votées."
+              icon="🔑"
+              title="Gestion locative"
+              description="Accompagnement complet dans la gestion de vos biens locatifs : recherche de locataires, suivi des loyers, gestion des travaux."
             />
             <FeatureCard
               icon="🛠️"
@@ -65,7 +65,7 @@ export default function Home() {
             />
           </div>
           <p className="text-center text-gray-500 text-sm mt-8">
-            Gestion locative et projets d&apos;achat ou de vente : sur demande, assurés par nos partenaires.
+            Projets d&apos;achat ou de vente : sur demande, assurés par nos partenaires.
           </p>
         </div>
       </section>
@@ -240,11 +240,11 @@ export default function Home() {
               Nos zones d'intervention
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Harmonia Syndic intervient en Île-de-France : Hauts-de-Seine (92), Yvelines (78) et Ouest Seine-et-Marne (77).
+              Harmonia Syndic intervient en Île-de-France et en Alsace, dans le Bas-Rhin (67).
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="rounded-xl border-2 border-accent/20 p-6">
               <div className="text-2xl font-bold text-accent mb-1">92</div>
               <h3 className="text-lg font-semibold text-primary mb-3">Hauts-de-Seine</h3>
@@ -273,6 +273,16 @@ export default function Home() {
               <ul className="space-y-1 text-gray-600 text-sm">
                 <li>• Ozoir-la-Ferrière</li>
                 <li>• Et communes limitrophes</li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl border-2 border-accent/20 p-6">
+              <div className="text-2xl font-bold text-accent mb-1">67</div>
+              <h3 className="text-lg font-semibold text-primary mb-3">Bas-Rhin</h3>
+              <ul className="space-y-1 text-gray-600 text-sm">
+                <li>• <a href="/syndic-copropriete/strasbourg" className="hover:text-accent">Strasbourg</a></li>
+                <li>• Eurométropole (Schiltigheim, Illkirch-Graffenstaden…)</li>
+                <li>• Haguenau</li>
               </ul>
             </div>
           </div>

@@ -27,7 +27,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services" className="text-gray-300 hover:text-[#C4A35A] transition-colors">
-                  Assemblées générales
+                  Gestion locative
                 </Link>
               </li>
               <li>
